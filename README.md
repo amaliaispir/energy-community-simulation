@@ -8,7 +8,7 @@ The system models a local energy community consisting of **9 valid households** 
 ## Key Features
 - **Multi-Agent Simulation (Mesa Framework):** Simulates individual household agents reacting probabilistically to community-level signals.
 - **Rule-Based Recommendation Engine:** Employs a traffic-light logic (surplus vs. deficit) to encourage self-consumption and peak shaving.
-- **Dynamic Scoring Mechanism:** Evaluates agent compliance using a 60-day moving window ($O(1)$ deque implementation) over an 8,760-hour simulated year.
+- **Dynamic Scoring Mechanism:** Evaluates agent compliance using a 60-day moving window deque implementation) over an 8,760-hour simulated year.
 - **Data Preprocessing & Validation:** Cleans and processes raw electrical consumption data (IRISE dataset), handling sensor faults, missing timestamps, and outlier filtering.
 - **Interactive Visualizations:** Generates comprehensive energy balance and State of Charge (SOC) tracking reports using Plotly.
 
