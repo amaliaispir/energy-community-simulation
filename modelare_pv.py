@@ -92,7 +92,7 @@ from plotly.subplots import make_subplots
 
 import pandas as pd
 
-from MAIN_corectat import (
+from pipeline_date_irise import (
     incarca_date,
     converteste_timpul,
     marcheaza_case,
