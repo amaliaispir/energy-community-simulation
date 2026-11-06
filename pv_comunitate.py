@@ -73,7 +73,7 @@ import numpy as np
 import pandas as pd
 import plotly.graph_objects as go
 
-from MAIN_corectat import (
+from pipeline_date_irise import (
     incarca_date,
     converteste_timpul,
     marcheaza_valorile_suspecte,
